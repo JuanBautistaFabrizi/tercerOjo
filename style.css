@@ -1,0 +1,159 @@
+*{  padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container-nav{
+    background-color:black ;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: chartreuse;
+}
+
+.nav{
+    margin-top: 7px;
+}
+
+
+.contenedorDeImagenDeBanner {
+    width: 100% px;
+    height: 300 px;
+}
+   
+.imagenDeBanner {
+    width: 100%;
+    height: 400px;
+}
+.h4{
+    color: chartreuse;
+}
+
+.container-us{
+    margin-top: 80px;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+    height: 30%;
+}
+
+.container-boxes-h4{
+    display: flex;
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50%;
+}
+
+.container-boxes{
+    display: flex;
+    font-size: 1.3em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50%;
+    text-decoration: none;
+}
+
+.box1 {
+    color: white;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid greenyellow 4px;
+    font-size: 1.5;
+    border-radius: 5%;
+}
+    
+.box2 {
+    color: white;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid greenyellow 4px;
+    border-radius: 5%;
+}
+
+.port-img{
+    width: 100p;
+    height: 350px;
+    display: flex;
+}
+   
+
+img{
+    
+    width: 100%;
+    height: 350px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 150px;
+    color: white;
+    width: 20%;
+    height: 700px;
+    justify-content: center;
+}
+    
+    
+ 
+.form-input{
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    margin-left: 10px;
+   
+}
+
+.form-input:focus {
+    outline: none ;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+    
+    
+    
+
+
+    
+
+
+
+    
+
+   
+
+
+    
+
+
+
+
+
